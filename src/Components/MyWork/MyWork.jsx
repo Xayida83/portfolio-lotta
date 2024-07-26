@@ -9,7 +9,7 @@ const MyWork = () => {
     <div className='mywork'>
       <div className="mywork-title">
         <h1>My latest work</h1>
-        <img src={theme_pattern} alt="logo" />
+        <img src={theme_pattern} alt="theme pattern" />
       </div>
       <div className="mywork-container">
         {mywork_data.map((work,index)=>{
