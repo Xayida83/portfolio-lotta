@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <div id='about' className='about'>
       <div className="about-title">
-        <h1>About me</h1>
+        <h2>About me</h2>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
@@ -33,17 +33,17 @@ export const About = () => {
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>10+</h1>
+          <h2>10+</h2>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>90+</h1>
+          <h2>90+</h2>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>15+</h1>
+          <h2>15+</h2>
           <p>HAPPY CLIENTS</p>
         </div>
         <hr />

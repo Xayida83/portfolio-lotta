@@ -1,8 +1,8 @@
 .navbar{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 20px 170px;
+  justify-content: space-evenly;
+  margin: 20px;
 }
 .nav-menu{
   display: flex;
@@ -12,7 +12,7 @@
   font-size: 20px;
 }
 .nav-connect{
-  padding: 20px 40px;
+  padding: 12px 14px;
   border-radius: 50px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
   font-size: 22px;
@@ -39,6 +39,10 @@
 .nav-mob-close{
   display: none;
 }
+.nav-mob-open{
+  display: none;
+}
+
 @media(max-width:768px){
   .navbar{
     margin: 20px 50px;
