@@ -8,18 +8,23 @@ const MyWork = () => {
   return (
     <div id='work' className='mywork'>
       <div className="mywork-title">
-        <h2>My latest work</h2>
+        <h2>My school projects</h2>
         <img src={theme_pattern} alt="theme pattern" />
       </div>
       <div className="mywork-container">
         {mywork_data.map((work,index)=>{
-          return <img key={index} src={work.w_img} alt=""/>           
+          return <a key={index} href={work.w_link} target="_blank" rel="noopener noreferrer">
+          <img src={work.w_img} alt="project image" />
+        </a>
+          // <img key={index} src={work.w_img} alt=""/>           
         })}
       </div>
-      <div className="mywork-showmore">
-        <p>Show More</p>
-        <img src={arrow_icon} alt="arrow" />
-      </div>
+      <a href="http://github.com/Xayida83" target="_blank" rel="noopener noreferrer">
+        <div className="mywork-showmore">
+          <p>See my Git</p>
+          <img src={arrow_icon} alt="arrow" />
+        </div>
+      </a>
     </div>
   )
 }

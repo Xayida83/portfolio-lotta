@@ -24,6 +24,10 @@
   display: flex;
   gap: 80px;
 }
+.about-left img{
+  width: 400px;
+  height: auto;
+}
 .about-right{
   display: flex;
   flex-direction: column;
@@ -35,6 +39,9 @@
   gap: 20px;
   font-size: 24px;
   font-weight: 500;
+}
+.skills-list h3{
+  margin: 0 0 10px 0;
 }
 .about-skills{
   display: flex;
