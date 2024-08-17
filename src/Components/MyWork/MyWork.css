@@ -34,7 +34,7 @@
 }
 .mywork-container img:hover{
   transform: scale(1.10);
-  border: 4px solid #ff00ff;
+  border: 4px solid #fd8d57;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -42,7 +42,7 @@
   display: flex;
   gap: 15px;
   border-radius: 50px;
-  border: 2px solid white;
+  border: 2px solid #fefae0;
   padding: 30px 60px;
   font-size: 22px;
   font-weight: 500;
@@ -52,7 +52,7 @@
 }
 a{
   text-decoration: none;
-  color: white;
+  color: #fefae0;
 }
 .mywork-showmore:hover{
   gap: 30px;
@@ -75,7 +75,7 @@ a{
   }
   .mywork-container{
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 13px;
   }
   .mywork-container img{
     width: 100%;

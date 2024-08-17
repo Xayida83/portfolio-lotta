@@ -36,13 +36,13 @@
   font-size: 20px;
   padding: 22px 50px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
   cursor: pointer;
   transition: 0.3s;
 }
 .footer-bottom{
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   font-size: 18px;
   padding: 0 0 10px 0;
 }
@@ -52,7 +52,7 @@
   margin: 0 0 0 50px;
 }
 .footer-email-input:hover{
-  border: 2px solid white;
+  border: 2px solid #fefae0;
 }
 .footer-subscribe:hover{
   transform: scale(1.1);

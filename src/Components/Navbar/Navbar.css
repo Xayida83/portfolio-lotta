@@ -14,7 +14,7 @@
 .nav-connect{
   padding: 12px 14px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+  background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
@@ -34,7 +34,7 @@
 }
 .anchor-link{
   text-decoration: none;
-  color: white;
+  color: #fefae0;
 }
 .nav-mob-close{
   display: none;
@@ -68,7 +68,7 @@
     align-items: start;
     top: 0;
     gap: 30px;
-    background-color: #1F0016;
+    background-color: #2b1808;
     width: 350px;
     height: 100%;
     z-index: 2;

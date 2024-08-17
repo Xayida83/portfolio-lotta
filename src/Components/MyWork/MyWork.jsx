@@ -21,7 +21,7 @@ const MyWork = () => {
       </div>
       <a href="http://github.com/Xayida83" target="_blank" rel="noopener noreferrer">
         <div className="mywork-showmore">
-          <p>See my Git</p>
+          <p>See my GitHub</p>
           <img src={arrow_icon} alt="arrow" />
         </div>
       </a>

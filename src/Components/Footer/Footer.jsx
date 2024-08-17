@@ -16,19 +16,9 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">
+        <p>
           © 2024 Lotta Lindberg. All rights reserved.</p>
-        <div className="footer-bottom-right">
-          <p>
-            Term of Services
-          </p>
-          <p>
-            Privacy Policy
-          </p>
-          <p>
-            Connect whit me
-          </p>
-        </div>
+        
       </div>      
     </div>
   )

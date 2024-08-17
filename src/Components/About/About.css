@@ -42,14 +42,20 @@
 }
 .skills-list h3{
   margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
 }
 .about-skills{
   display: flex;
   flex-flow: row wrap;
-  gap: 20px;
+  justify-content: space-between;
   list-style: none;
   font-size: 20px;
   transition: 0.5s;
+}
+.about-skill p{
+  font-size: 18px;
 }
 .about-skill:hover{
   transform: scale(1.05);
@@ -72,7 +78,7 @@
 .about-achievement h2{
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+  background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

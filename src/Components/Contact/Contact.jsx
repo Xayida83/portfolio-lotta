@@ -4,6 +4,9 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import linkedIn_icon from '../../assets/linkedin_icon.svg'
+
+// import linkedIn_icon from '.../../assets/linkedin_icon.svg'
 
 
 // import arrow_icon from '../../assets/arrow_icon.svg'
@@ -52,6 +55,9 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="location icon" /> <p>Stockholm, Sweden</p>
+            </div>
+            <div className="contact-detail">
+              <img src={linkedIn_icon} alt="location icon" /> <a href="https://www.linkedin.com/in/charlotta-lindberg/"><p>LinkedIn</p></a>
             </div>
           </div>
         </div>

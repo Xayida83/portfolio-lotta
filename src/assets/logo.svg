@@ -7,8 +7,8 @@
   <!-- Definiera gradienten -->
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(365)">
-      <stop offset="1.36%" style="stop-color:#DA7C25; stop-opacity:1" />
-      <stop offset="101.6%" style="stop-color:#B923E1; stop-opacity:1" />
+      <stop offset="10.36%" style="stop-color:#bc6c25; stop-opacity:1" />
+      <stop offset="190.6%" style="stop-color:#d4a373; stop-opacity:1" />
     </linearGradient>
   </defs>
 
