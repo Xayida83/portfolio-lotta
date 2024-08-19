@@ -23,25 +23,58 @@
 .mywork-container{
   display: flex;
   flex-flow: row wrap;
-  gap: 12px;
+  gap: 10px;
   justify-content: space-around;
 }
-.mywork-container img{
-  box-sizing: border-box;
-  width: 419px;
-  height: 280px;
-  transition: 0.3s;
+.mywork-container img {
   cursor: pointer;
+  max-width: 100%;
+  display: block;
+  transition: transform 0.5s;
 }
-.mywork-container img:hover{
-  transform: scale(1.10);
-  border: 4px solid #fd8d57;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-.project-card{
+
+.project-card {
   max-width: 427px;
+  position: relative;
+  overflow: hidden;
 }
+
+.overlay {  
+  width: 100%; 
+  height: 100%; 
+  background: rgba(0, 0, 0, 0.68); 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+  font-size: 16px;
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+  opacity: 0; /* Dölj overlayen till en början */
+  transform: scale(0.9); /* Skala ner overlayen lite */
+}
+.overlay-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 74%;
+}
+/* .overlay a {
+  width: 60px;
+  height: 60px;
+} */
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.project-card:hover .overlay {
+  opacity: 1; /* Gör overlayen synlig */
+  transform: scale(1); /* Skala upp overlayen till sin fulla storlek */
+}
+
 .mywork-showmore{
   display: flex;
   gap: 15px;
@@ -77,15 +110,7 @@ a{
     width: 130px;
     margin-right: -20px;
   }
-  .mywork-container{
-    grid-template-columns: 1fr 1fr;
-    gap: 13px;
-    justify-content: center;
-  }
-  .mywork-container img{
-    width: 100%;
-    height: auto;
-  }
+  
   .mywork-showmore{
     padding: 20px 40px;
     font-size: 18px;

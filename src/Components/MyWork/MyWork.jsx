@@ -19,7 +19,7 @@ const MyWork = () => {
         </a>        
         })}
       </div> */}
-      <div className="mywork-container">
+      {/* <div className="mywork-container">
         {mywork_data.map((work, index) => {
           return (
             <div key={index} className="project-card">
@@ -35,7 +35,28 @@ const MyWork = () => {
             </div>
           );
         })}
+      </div> */}
+      <div className="mywork-container">
+  {mywork_data.map((work, index) => {
+    return (
+      <div key={index} className="project-card">
+        <img src={work.w_img} alt={work.w_name} className="project-image" />
+        <div className="overlay">
+          <div className="overlay-content">
+            <h3 className="project-title">{work.w_name}</h3>
+            <p className="project-fact">Collaborator: {work.w_colab}</p>
+            <p className="project-fact">Period: {work.w_period}</p>
+            <p className="project-fact">{work.w_info}</p>
+            <a href={work.w_link} target="_blank" rel="noopener noreferrer" className="project-link">See link
+              <img src={arrow_icon} alt="Arrow Icon" className="arrow-icon" />
+            </a>
+          </div>
+        </div>
       </div>
+    );
+  })}
+</div>
+
       <a href="http://github.com/Xayida83" target="_blank" rel="noopener noreferrer">
         <div className="mywork-showmore">
           <p>See my GitHub</p>

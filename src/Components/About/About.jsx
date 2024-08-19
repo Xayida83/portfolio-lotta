@@ -21,6 +21,7 @@ export const About = () => {
             <ul className="about-skills">
               <li className="about-skill">CSS <p>SASS</p><p>LESS</p></li>
               <li className="about-skill">HTML</li>
+              <li className="about-skill">Figma</li>
               <li className="about-skill">GIT</li>               
               <li className="about-skill">JavaScript <p>React</p><p>Vue</p></li>
               <li className="about-skill">CMS <p>Strapi</p><p>WordPress</p></li>
