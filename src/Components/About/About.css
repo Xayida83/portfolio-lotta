@@ -50,12 +50,14 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  gap: 10px;
   list-style: none;
   font-size: 20px;
   transition: 0.5s;
 }
 .about-skill p{
   font-size: 18px;
+  color: #bc6c25;
 }
 .about-skill:hover{
   transform: scale(1.05);
@@ -91,10 +93,10 @@
   transform: scale(1.12);
   transition: 0.5s;
 }
-@media(max-width:768px){
+@media(max-width:786px){
   .about{
     gap: 80px;
-    margin: 50px 70px;
+    margin: 40px 20px;
     align-items: start;
   }
   .about-title h2{

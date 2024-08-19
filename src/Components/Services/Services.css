@@ -71,7 +71,7 @@
   .services{
     align-items: start;
     gap: 70px;
-    margin: 20px 70px;
+    margin: 20px 20px;
   }
   .services-title h2{
     padding: 0;

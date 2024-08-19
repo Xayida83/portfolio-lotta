@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 80px 70px;
 }
 .mywork-title{
   position: relative;
@@ -21,9 +21,10 @@
   z-index: -1;
 }
 .mywork-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+  justify-content: space-between;
 }
 .mywork-container img{
   box-sizing: border-box;
@@ -59,10 +60,10 @@ a{
   transition: 0.6s;
 }
 
-@media(max-width:768px){
+@media(max-width:786px){
   .mywork{
     gap: 50px;
-    margin: 50px 70px;
+    margin: 40px 20px;
     align-items: start;
   }
   .mywork-title h2{

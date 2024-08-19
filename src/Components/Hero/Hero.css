@@ -57,7 +57,7 @@
   border-color: #f28b19;
 }
 
-@media(max-width:768px){
+@media(max-width:786px){
   .hero img{    
     width: 150px;
     height: 150px;
