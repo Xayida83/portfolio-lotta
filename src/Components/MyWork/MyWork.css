@@ -46,11 +46,13 @@
   position: absolute;
   top: 0; 
   left: 0; 
+  overflow: hidden;
   display: flex;
   align-items: center; 
   justify-content: center; 
   flex-direction: column;
   font-size: 16px;
+  /* transition: height 0.5s; */
   transition: opacity 0.5s ease, transform 0.5s ease; 
   opacity: 0; /* Dölj overlayen till en början */
   transform: scale(0.9); /* Skala ner overlayen lite */
@@ -61,18 +63,20 @@
   justify-content: center;
   max-width: 74%;
 }
-/* .overlay a {
-  width: 60px;
-  height: 60px;
-} */
+.overlay a {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
 
 .project-card:hover img {
   transform: scale(1.1);
 }
 
 .project-card:hover .overlay {
-  opacity: 1; /* Gör overlayen synlig */
-  transform: scale(1); /* Skala upp overlayen till sin fulla storlek */
+  opacity: 1; 
+  transform: scale(1);  
+  
 }
 
 .mywork-showmore{
