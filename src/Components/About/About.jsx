@@ -19,12 +19,24 @@ export const About = () => {
           <div className="skills-list">
             <h3>Knowledge</h3>
             <ul className="about-skills">
-              <li className="about-skill">CSS <p>SASS</p><p>LESS</p></li>
+              <li className="about-skill">CSS 
+                <p>SASS</p>
+                <p>LESS</p>
+              </li>
               <li className="about-skill">HTML</li>
               <li className="about-skill">Figma</li>
               <li className="about-skill">GIT</li>               
-              <li className="about-skill">JavaScript <p>React</p><p>Vue</p></li>
-              <li className="about-skill">CMS <p>Strapi</p><p>WordPress</p></li>
+              <li className="about-skill">JavaScript 
+                <p>TypeScript</p>
+                <p>React</p>
+                <p>Next</p>
+                <p>Vue</p>
+              </li>
+              <li className="about-skill">Angular</li>
+              <li className="about-skill">CMS 
+                <p>Strapi</p>
+                <p>WordPress</p>
+              </li>
               <li className="about-skill">C#</li>
               <li className="about-skill">.NET</li>
               <li className="about-skill">SQL</li>               
