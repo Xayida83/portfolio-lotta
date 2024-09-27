@@ -23,8 +23,9 @@
 .mywork-container{
   display: flex;
   flex-flow: row wrap;
-  gap: 10px;
+  gap: 16px;
   justify-content: space-around;
+  align-self: center;
   max-width: 80vw;
 }
 .mywork-container img {
@@ -33,12 +34,12 @@
   display: block;
   transition: transform 0.5s;
   border-radius: 10px;
-  z-index: 1;
+  z-index: -1;
   position: relative;
 }
 
 .project-card {
-  max-width: 427px;
+  max-width: 40%;
   position: relative;
   overflow: hidden;
 }
@@ -55,17 +56,17 @@
   align-items: center; 
   justify-content: center; 
   flex-direction: column;
-  font-size: 16px;
+  font-size: 24px;
   transition: height 0.5s;
   opacity: 0; 
   transform: scale(0.9); 
-  z-index: 2;
+  z-index: 1;
 }
 .overlay-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 74%;
+  max-width: 90%;
 }
 .overlay a {
   display: flex;
@@ -119,14 +120,23 @@ a{
     width: 130px;
     margin-right: -20px;
   }
-  
+  .mywork-container {
+    flex-direction: column;
+  }
+  .project-card {
+    min-width: 100%;
+  }
+  .overlay {
+    font-size: 17px;
+  }
+  .overlay-content {
+    max-width: 98%;
+  }
   .mywork-showmore{
     padding: 20px 40px;
     font-size: 18px;
     margin: 50px auto;
     cursor: pointer;
   }
-  .overlay-content{
-    max-width: 90%;
-  }
+  
 }

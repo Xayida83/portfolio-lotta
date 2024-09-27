@@ -15,7 +15,8 @@ const mywork_data = [
         w_period:"April 2024",
         w_img:project1_img,
         w_info:"Using a Pokemon api to present and compare different Pokemons. Made with JavaScript, HTML and CSS",
-        w_link:'https://pokegamebylotta.netlify.app/'
+        w_link:'https://pokegamebylotta.netlify.app/',
+        w_see_link: "See webpage"
     },
     {
         w_no:2,
@@ -24,7 +25,8 @@ const mywork_data = [
         w_period:"March 2024",
         w_img:project2_img,
         w_info:"I embarked on an engaging project to develop an advanced Tamagotchi simulation. Made with JavaScript and CSS",
-        w_link:'https://wheelsoftimecreatures.netlify.app/'
+        w_link:'https://wheelsoftimecreatures.netlify.app/',
+        w_see_link: "See webpage"      
     },
     {
         w_no:3,
@@ -32,8 +34,9 @@ const mywork_data = [
         w_colab:"None",
         w_period:"January 2023",
         w_img:project3_img,
-        w_info:"For the final grade in the JavaScript 1. Made with JavaScript, HTML and SASS",
-        w_link:'https://quizforankademin.netlify.app/'
+        w_info:"We were assigned the task of creating a quiz. The objective was to demonstrate ability to retrieve values from input. Made with JavaScript, HTML and SASS",
+        w_link:'https://quizforankademin.netlify.app/',
+        w_see_link: "See webpage"
     },
     {
         w_no:4,
@@ -42,7 +45,8 @@ const mywork_data = [
         w_period:"October 2023",
         w_img:project4_img,
         w_info:"Part of a course on HTML, CSS, and Accessibility. Our goal was to design a responsive and accessible website",
-        w_link:'https://rentaplant.netlify.app/'
+        w_link:'https://rentaplant.netlify.app/',
+        w_see_link: "See webpage"
     },
     {
         w_no:5,
@@ -51,7 +55,8 @@ const mywork_data = [
         w_period:"March 2024",
         w_img:project5_img,
         w_info:"For an Agile development course. Made with JavaScript, HTML and SASS",
-        w_link:'https://sundayreset.netlify.app/'
+        w_link:'https://sundayreset.netlify.app/',
+        w_see_link: "See webpage"
     },
     {
         w_no:6,
@@ -60,7 +65,8 @@ const mywork_data = [
         w_period:"May 2024",
         w_img:project6_img,
         w_info:"Learning CMS Strapi. Made with JavaScript, HTML and SASS",
-        w_link:'https://github.com/Xayida83/CMS_Projekt_lotta_lindberg'
+        w_link:'https://github.com/Xayida83/CMS_Projekt_lotta_lindberg',
+        w_see_link: "See it on github"
     },
     // {
     //     w_no:7,

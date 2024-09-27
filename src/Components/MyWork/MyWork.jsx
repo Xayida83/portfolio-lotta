@@ -47,7 +47,7 @@ const MyWork = () => {
                 <p className="project-fact">Period: {work.w_period}</p>
                 <p className="project-fact">{work.w_info}</p>
                 <a href={work.w_link} target="_blank" rel="noopener noreferrer" className="project-link">
-                  See link
+                  {work.w_see_link}
                   <img src={arrow_icon} alt="Arrow Icon" className="arrow-icon" />
                 </a>
               </div>

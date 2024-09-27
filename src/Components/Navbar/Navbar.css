@@ -54,6 +54,7 @@
     display: block;
     position: fixed;
     right: 30px;
+    z-index: 2;
   }
   .nav-mob-close{
     display: block;
