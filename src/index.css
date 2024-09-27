@@ -8,3 +8,26 @@ body{
   color: #fefae0;
   font-family: 'outfit';
 }
+h1 {
+  font-size: clamp(3rem, 5vw, 7rem); /* Skalar från 2rem upp till 6rem beroende på viewportens bredd */
+  max-width: 60%;
+  margin-top: 10px;
+  text-align: center;
+
+}
+h2 {
+  font-size: clamp(3.125rem, 5vw, 5rem);
+}
+h3 {
+  font-size: clamp(1rem, 5vw, 2rem);
+  font-weight: 600;
+}
+p, li, label{
+  font-size: clamp(0.5rem, 5vw, 1.5rem);
+}
+
+@media(max-width:786px){
+h1 {
+  width: 100%;
+}
+}

@@ -24,23 +24,22 @@ export const About = () => {
                 <p>LESS</p>
               </li>
               <li className="about-skill">HTML</li>
-              <li className="about-skill">Figma</li>
-              <li className="about-skill">GIT</li>               
               <li className="about-skill">JavaScript 
                 <p>TypeScript</p>
                 <p>React</p>
                 <p>Next</p>
                 <p>Vue</p>
               </li>
-              <li className="about-skill">Angular</li>
               <li className="about-skill">CMS 
                 <p>Strapi</p>
                 <p>WordPress</p>
               </li>
+              <li className="about-skill">GIT</li>                
               <li className="about-skill">C#</li>
               <li className="about-skill">.NET</li>
               <li className="about-skill">SQL</li>               
               <li className="about-skill">SEO</li> 
+              <li className="about-skill">Figma</li>
             </ul>
           </div>
         </div>

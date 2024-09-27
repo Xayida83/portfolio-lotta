@@ -11,7 +11,6 @@
 }
 .contact-title h2{
   padding: 0 30px;
-  font-size: 80px;
   font-weight: 600;
 }
 .contact-title img{
@@ -44,7 +43,6 @@
  }
 
 .contact-left h2{
-  font-size: 80px;
   font-weight: 700;
   background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
   background-clip: text;
@@ -54,7 +52,6 @@
 .contact-left p{
   max-width: 550px;
   color: #fefae0;
-  font-size: 20px;
   line-height: 35px;
 }
 .contact-details{
@@ -62,7 +59,6 @@
   flex-direction: column;
   gap: 30px;
   color: #fefae0;
-  font-size: 22px;
 }
 .contact-detail{
   display: flex;
@@ -70,12 +66,6 @@
   align-items: center;
   gap: 20px;
 }
-/* .contact-right{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 30px;
-} */
 .contact-right {
   display: flex;
   flex-direction: column;
@@ -85,7 +75,6 @@
 }
 .contact-right label{
   color: #fefae0;
-  font-size: 22px;
   font-weight: 500;
 }
 .contact-right input{
@@ -97,7 +86,6 @@
   background: #32323c;
   color: #a0a0a0;
   font-family: Outfit;
-  font-size: 20px;
 }
 .contact-right textarea{
   width: 92%;
@@ -107,18 +95,17 @@
   background: #32323c;
   color: #a0a0a0;
   font-family: Outfit;
-  font-size: 20px;
 }
 .contact-submit{
   border: none;
   color: #fefae0;
   border-radius: 50px;
   background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
-  font-size: 22px;
   padding: 20px 60px;
   margin: 0 0 50px 0;
   cursor: pointer;
   transition: 0.3s;
+  font-size: clamp(0.5rem, 5vw, 1.5rem);
 }
 .contact-submit:hover{
   transform: scale(1.1);
@@ -133,7 +120,6 @@
   }
   .contact-title h2{
     padding: 0;
-    font-size: 50px;
   }
   .contact-title img{
     width: 130px;
@@ -146,12 +132,6 @@
   .contact-left{
     width: 100%;
   }
-  .contact-left h2{
-    font-size: 54px;
-  }
-  .contact-left p{
-    font-size: 18px;
-  }
   .contact-detail{
     gap: 20px;
   }
@@ -161,19 +141,14 @@
   .contact-right{
     width: 100%;
   }
-  .contact-right label{
-    font-size: 20px;
-  }
+  
   .contact-right input{
     width: 93%;
-    font-size: 20px;    
   }
   .contact-right textarea{
     width: 83%;
-    font-size: 20px;
   }
   .contact-submit{
-    font-size: 20px;
     padding: 15px 40px;
   }
 }

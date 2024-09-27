@@ -9,13 +9,11 @@
   align-items: center;
   list-style: none;
   gap: 60px;
-  font-size: 20px;
 }
 .nav-connect{
   padding: 12px 14px;
   border-radius: 50px;
   background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
-  font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -77,7 +75,6 @@
     right: -350px;
   }
   .nav-menu li{
-    font-size: 30px;
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
