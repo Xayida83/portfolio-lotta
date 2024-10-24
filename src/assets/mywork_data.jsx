@@ -4,7 +4,9 @@ import project3_img from '../assets/Quiz.png'
 import project4_img from '../assets/Rent_a_plant.png'
 import project5_img from '../assets/Sunday_Reset.png'
 import project6_img from '../assets/Book_Ducks.png'
-// import project7_img from '../assets/Hild_project.png'
+import project7_img from '../assets/E_Wallet.png'
+import project8_img from '../assets/Hild_project.png'
+
 
 
 const mywork_data = [
@@ -66,17 +68,27 @@ const mywork_data = [
         w_img:project6_img,
         w_info:"Learning CMS Strapi. Made with JavaScript, HTML and SASS",
         w_link:'https://github.com/Xayida83/CMS_Projekt_lotta_lindberg',
-        w_see_link: "See it on github"
+        w_see_link: "See github"
     },
-    // {
-    //     w_no:7,
-    //     w_name:"HILD Project",
-    //     w_colab:"Imad Yousef, Gabriella Bergdahl, Hanna Agerlo",
-    //     w_period:"2022",
-    //     w_img:project7_img,
-    //     w_info:"One of my first projects as a programmer, at the beginning of learning html and css.",
-    //     w_link:'https://hildproject.netlify.app/'
-    // },
+    {
+        w_no:7,
+        w_name:"E-Wallet",
+        w_colab:"None",
+        w_period:"October 2024",
+        w_img:project7_img,
+        w_info:"Learning Reakt and Redux. Mobile first, responsive design, 'styled-components' and ThemeProvider",
+        w_link:'https://e-wallet-lotta.netlify.app/',
+        w_see_link: "See webpage"
+    },
+    {
+        w_no:8,
+        w_name:"HILD Project",
+        w_colab:"Imad Yousef, Gabriella Bergdahl, Hanna Agerlo",
+        w_period:"2022",
+        w_img:project8_img,
+        w_info:"One of my first projects as a programmer, at the beginning of learning html and css.",
+        w_link:'https://hildproject.netlify.app/'
+    },
 ]
  
 export default mywork_data;
