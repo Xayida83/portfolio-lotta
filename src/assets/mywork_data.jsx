@@ -86,7 +86,7 @@ const mywork_data = [
         w_colab:"Imad Yousef, Gabriella Bergdahl, Hanna Agerlo",
         w_period:"2022",
         w_img:project8_img,
-        w_info:"One of my first projects as a programmer, at the beginning of learning html and css.",
+        w_info:"One of my first projects as a programmer 2021, at the beginning of learning html and css.",
         w_link:'https://hildproject.netlify.app/'
     },
 ]
