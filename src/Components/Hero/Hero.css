@@ -17,7 +17,7 @@
   width: 70%;
   font-weight: 600;
 } */
-.hero h1 span{
+.hero h1{
   background: linear-gradient(267deg, #606c38 0.36%, #bc6c25 102.6%);
   background-clip: text;
   -webkit-background-clip: text;

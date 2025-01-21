@@ -13,8 +13,11 @@ export const About = () => {
         
         <div className="about-right">
           <div className="about-para">
-            <p>My career has always revolved around service and teamwork, with several years as a teacher. This experience taught me to be flexible and handle stressful situations effectively. In 2021, I decided to change direction and began my journey into IT, focusing on web development with JavaScript and .NET.</p>
-            <p> Currently, I’m a student at Nackademin, set to graduate in May 2025. My goal is to combine my passion for technology with my experience in service and leadership in a dynamic role within frontend development. I’m motivated to keep learning, grow as a developer, and contribute value in a future role.</p>
+            <p> My professional journey began in education, where I spent several years honing my skills in leadership, teamwork, and service. This experience taught me to thrive under pressure, adapt to changing circumstances, and guide others toward shared goals.</p>
+
+            <p>In 2021, I transitioned into IT, focusing on web development with JavaScript and .NET. Since then, I have built a solid foundation in frontend technologies, blending my technical expertise with my ability to connect with people.</p>
+
+            <p>My ambition is to continue growing as a frontend developer in a role that values collaboration, innovation, and user-centric design. I am passionate about contributing to meaningful projects while constantly evolving and delivering value.</p>
           </div>
           <div className="skills-list">
             <h3>Knowledge</h3>
