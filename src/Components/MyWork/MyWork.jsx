@@ -56,13 +56,18 @@ const MyWork = () => {
         ))}
       </div>
 
-
-      <a href="http://github.com/Xayida83" target="_blank" rel="noopener noreferrer">
-        <div className="mywork-showmore">
-          <p>See my GitHub</p>
-          <img src={arrow_icon} alt="arrow" />
-        </div>
-      </a>
+        <div className='hero-action'>
+          <a href="http://github.com/Xayida83" target="_blank" rel="noopener noreferrer">
+            <div className="hero-resume">
+              <p>See my GitHub <img src={arrow_icon} alt="arrow" /></p>
+            </div>
+          </a>
+          <a href="https://codepen.io/Xayida83" target="_blank" rel="noopener noreferrer">
+            <div className="hero-resume">
+              <p>See my CodePen <img src={arrow_icon} alt="arrow" /></p>
+            </div>
+          </a>
+      </div>
     </div>
   )
 }
