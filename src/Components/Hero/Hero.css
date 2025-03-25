@@ -33,7 +33,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   gap: 25px;
   font-weight: 500;
   margin-bottom: 50px;
@@ -49,6 +49,14 @@
   border-radius: 50px;
   border: 2px solid #fefae0;
   cursor: pointer;
+  width: 17rem;
+  text-align: center;
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+  }
 }
 .hero-connect:hover{
   border: 2px solid #fefae0;
