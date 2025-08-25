@@ -3,25 +3,32 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import resume from '../../assets/LindbergCV.pdf'
-import grades from '../../assets/Betygsutdrag_dec.pdf'
+import grades from '../../assets/examensbevis-Nackademin.pdf'
 
 export const Hero = () => {
   return (
-    <div id='home' className='hero'>
-      <img src={profile_img} alt="" />
-      <h1>I'm Charlotta Lindberg</h1>
-      <p>Graduated .NET developer with focus on frontend.</p>
-      <div className="hero-action">
-        {/* <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div> */}
-        <a href={resume}
-        download='CV_Lindberg'
-        className="hero-resume">Download my resume
+    <section id='home' className='hero' aria-labelledby="hero-heading">
+      <img src={profile_img} alt="Charlotta Lindberg's profile picture" />
+      <h1 id="hero-heading">I'm Charlotta Lindberg</h1>
+      <p>Graduated frontend and .NET developer</p>
+      <div className="hero-action" role="group" aria-label="Download documents">
+        <a 
+          href={resume}
+          download='CV_Lindberg'
+          className="hero-resume"
+          aria-label="Download my resume"
+        >
+          Download my resume
         </a>
-        <a href={grades}
-        download='Betygsutdrag_dec.pdf'
-        className="hero-resume">Download my grades
+        <a 
+          href={grades}
+          download='examensbevis-Nackademin.pdf'
+          className="hero-resume"
+          aria-label="Download my grades"
+        >
+          Download my grades from Nackademin
         </a>
       </div>
-    </div>
+    </section>
   )
 }

@@ -3,6 +3,14 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000087;
+  z-index: 1000;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .nav-menu{
   display: flex;
@@ -25,10 +33,14 @@
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  position: relative;
 }
 .nav-menu li img{
-  display: flex;
+  display: none;
   margin: auto;
+}
+.nav-menu li:hover img{
+  display: block;
 }
 .anchor-link{
   text-decoration: none;
@@ -44,6 +56,10 @@
 @media(max-width:786px){
   .navbar{
     margin: 20px 50px;
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
   }
   .nav-connect{
     display: none;
@@ -52,14 +68,35 @@
     display: block;
     position: fixed;
     right: 30px;
+    top: 20px;
     z-index: 2;
+    background-color: #00000087;
+    border-radius: 8px;
+    padding: 10px;
   }
   .nav-mob-close{
     display: block;
-    position: relative;
+    position: absolute;
     top: 30px;
-    left: 290px;
-    width: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: rgba(188, 108, 37, 0.2);
+    border: 2px solid #bc6c25;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-mob-close:hover{
+    background: rgba(188, 108, 37, 0.4);
+    transform: scale(1.1);
+  }
+  .nav-mob-close img{
+    width: 20px;
+    height: 20px;
   }
   .nav-menu{
     position: fixed;
@@ -67,16 +104,37 @@
     align-items: start;
     top: 0;
     gap: 30px;
-    background-color: #2b1808;
+    background: linear-gradient(135deg, #2b1808 25%, #FF9800 100%);
     width: 350px;
     height: 100%;
     z-index: 2;
-    transition: right 0.5s;
+    transition: right 0.5s ease-in-out;
     right: -350px;
+    padding: 80px 0 0 0;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+    border-right: 2px solid #bc6c25;
   }
   .nav-menu li{
     padding-left: 100px;
     flex-direction: row;
     gap: 20px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .nav-menu li:hover{
+    background-color: rgba(188, 108, 37, 0.1);
+    transform: translateX(10px);
+  }
+  .nav-menu .anchor-link{
+    width: 100%;
+    padding: 15px 0;
+  }
+  .nav-menu .anchor-link p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  .nav-menu .anchor-link:hover p{
+    color: #bc6c25;
   }
 }

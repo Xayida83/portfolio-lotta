@@ -47,23 +47,23 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className="about-achievements">
+      {/* <div className="about-achievements">
         <div className="about-achievement">
           <h2>20+</h2>
           <p>YEARS OF WORKEXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h2>3+</h2>
+          <h2>4</h2>
           <p>YEARS AS IT-STUDENT</p>
         </div>
-        {/* <hr /> */}
-        {/* <div className="about-achievement">
+        <hr /> 
+        <div className="about-achievement">
           <h2>15+</h2>
           <p>HAPPY CLIENTS</p>
         </div>
-        <hr /> */}
-      </div>
+        <hr />
+      </div> */}
     </div>
   )
 }
