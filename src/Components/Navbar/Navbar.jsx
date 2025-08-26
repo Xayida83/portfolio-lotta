@@ -103,8 +103,17 @@ const Navbar = () => {
           <img src={underline} alt="" aria-hidden="true"/>
         </li>
         
-     <li>
-          <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>handleLinkClick("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline}/>:<></>}
+        <li role="none">
+          <AnchorLink 
+            className='anchor-link' 
+            offset={50} 
+            href='#contact'
+            role="menuitem"
+            aria-current={menu === "contact" ? "page" : undefined}
+          >
+            <p onClick={() => handleLinkClick("contact")}>Contact</p>
+          </AnchorLink>
+          <img src={underline} alt="" aria-hidden="true"/>
         </li>
       </ul>
       {/* <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With me</AnchorLink></div>  */}
