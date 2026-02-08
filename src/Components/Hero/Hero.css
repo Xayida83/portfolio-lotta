@@ -49,13 +49,12 @@
   border-radius: 50px;
   border: 2px solid #fefae0;
   cursor: pointer;
-  width: 17rem;
+  width: 18rem;
   text-align: center;
   p {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 4vw;
   }
 }
 .hero-connect:hover{

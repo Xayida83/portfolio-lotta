@@ -85,6 +85,7 @@
   border: 2px solid #fefae0;
   cursor: pointer;
   text-align: center;
+  align-self: center;
 }
 
 /* Fokusindikator för tillgänglighet */
